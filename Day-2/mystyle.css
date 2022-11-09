@@ -1,0 +1,210 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar{
+    display: flex;
+    text-align: center;
+    padding-left: 100px;
+    height: auto;
+    background-color: #1A237E;
+    color: white;
+}
+#Nav-bar-items{
+    display: flex;
+    height: fit-content;
+    margin-left: 300px;
+    align-items: center;
+    width: 700px;
+    justify-content: space-around;
+    height: 100px;
+}
+.bk-icon-streamline-question_mark_circle{
+    fill: white;
+}
+.flag{
+    border-radius: 50%;
+}
+.property-button{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #1A237E;
+    border: 1px solid white;
+    color: white;
+}
+.reg-button{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #1A237E;
+}
+.sign-button{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #1A237E;
+}
+#Nav-bar-heading{
+    height: 100px;
+}
+#nav-menu-items{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1A237E;
+    color: white;
+}
+.Navbar_svgIcons__2vY6H{
+    fill: white;
+}
+#heading{
+    height: auto;
+    background-color: whitesmoke;
+}
+.heading-header{
+    padding: 5px 50px 5px 50px;
+    font-size: 20px;
+}
+.heading-header>button{
+    padding: 10px 5px 10px 5px;
+    background-color: #1E88E5;
+    border: none;
+    color: white;
+}
+.booking{
+    height: 60px;
+    padding: 10px 20px 10px 20px;
+}
+.booking>input{
+    height: 50px;
+    width: 380px;
+    border: 3px solid orange;
+}
+.booking>button{
+    height: 60px;
+    border: 3px solid orange;
+    padding: 10px 5px 10px 5px;
+    background-color: #1E88E5;
+    color: white;
+}
+.checkbox{
+    padding-left: 30px;
+    display: flex;
+}
+.checkbox>input{
+    cursor: pointer;
+}
+#offer{
+    margin-top: 0px;
+    padding: 10px 30px;
+    height: auto;
+}
+.offer-childs{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: center;
+}
+.offer-childs-first{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 500px;
+    padding: 10px;
+}
+.offer-childs-first>div>img{
+    width: 60%;
+    margin-left: 150px;
+}
+.offer-childs-second{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.offer-childs-second-child{
+    position: absolute;
+    margin-top: 20px;
+    padding: 20px;
+}
+.offer-childs-second>img{
+    height: 190px;
+}
+.offer-childs-second-child>button{
+    border: none;
+    padding: 10px 5px 10px 5px;
+    background-color: #1E88E5;
+    color: white;
+}
+.offer-childs-first-child>button{
+    border: none;
+    padding: 10px 5px 10px 5px;
+    background-color: #1E88E5;
+    color: white;
+}
+#explore{
+    margin-top: 0px;
+    padding: 10px 30px;
+    height: auto;
+}
+.explore-child{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#property-type{
+    margin-top: 0px;
+    padding: 10px 30px;
+    height: auto;
+}
+.property-type-child{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#city-cards-first{
+    margin-top: 0px;
+    padding: 10px 30px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.city-cards-first-child-first{
+    position: absolute;
+    margin-top: 5px;
+    padding: 20px;
+    color: blue;
+}
+#city-cards-second{
+    margin-top: 0px;
+    padding: 10px 30px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+    width: 100%;
+}
+#city-cards-second>div>img{
+    width: 90%;
+    cursor: pointer;
+}
+#city-cards-first>div>img{
+    cursor: pointer;
+}
+.trip-planner-menu{
+    display: flex;
+    border: none;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #1E88E5;
+}
+.trip-planner-menu>button{
+    border: none;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 10%;
+}
+#trip-planner-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin: 30px;
+}
+#trip-planner{
+    margin: 30px;
+}
